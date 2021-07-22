@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #FAFAFA;
+}
+
+html {
+    font-size: 62.5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.instagram-wrapper {
+    display: flex;
+    margin: 3.5rem 0rem;
+    align-items: center;
+    justify-content: center;
+}
+
+aside {
+    height: min-content;
+    width: min-content;
+    margin-right: 2rem;
+}
+
+main {
+    height: min-content;
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    padding-top: 2.5rem;
+    font-size: 1.4rem;
+}
+
+a, a::before {
+    text-decoration: none;
+}
+
+/* MAIN DIV */
+
+.box {
+    padding: 2.8rem;
+    border: 0.1rem solid #dbdbdb;
+    margin-bottom: 1rem;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+#instragram-logo {
+    margin-bottom: 3.3rem;
+}
+
+#upper-box {
+    padding-bottom: 1.5rem;
+}
+
+div#facebook-login {
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: #385185;
+    font-weight: bold;
+}
+
+div#facebook-login > img {
+    margin-left: 7rem;
+}
+
+div#facebook-login > a {
+    margin-left: 1rem;
+}
+
+a#forgot-password {
+    font-size: 1.15rem;
+}
+
+#bottom-box {
+    flex-direction: row;
+}
+
+p#non-account {
+    margin-left: 3.5rem;
+    margin-right: 0.5rem;
+}
+
+input {
+    margin: 0.4rem;
+    padding: 0rem 1rem;
+    font-size: 1.3rem;
+    width: 26rem;
+    height: 3.2rem;
+    background-color: #FAFAFA;
+    border: 0.1rem solid #e0e0e0;
+    border-radius: 0.25rem;
+    color: #f8f6f66b;
+}
+
+.button {
+    margin-left: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 28.2rem;
+    height: 2.2rem;
+    background-color: #0095F6;
+    border: 0px solid transparent;
+    border-radius: 0.4rem;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 0.6rem;
+}
+
+#or {
+    display: flex;
+    color: #8e8e8e;
+    font-size: 1.6rem;
+    margin: auto;
+}
+
+
+.orlines {
+    width: 11rem;
+    height: 0.1rem;
+    background-color: #9d8e8e54;
+    margin-top: 0.8rem;
+}
+
+.or {
+    margin: 0rem 2rem;
+}
+
+p#download-phrase {
+    margin-top: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* FOOTER DIV */
+
+footer {
+    color: #8e8e8e;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.upperlinks > a {
+    padding: 0rem 0.5rem;
+}
+
+.copyright {
+    margin-top: 1.2rem;
+}
